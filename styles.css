@@ -5,3 +5,29 @@
 #bankTransferDetails p,#bankTransferDetails b,#bankTransferDetails strong{color:#241b2e!important}
 #ncbPaymentDetails,#scotiaPaymentDetails{color:#241b2e!important;background:#fff!important}
 #ncbPaymentDetails p,#scotiaPaymentDetails p,#ncbPaymentDetails b,#scotiaPaymentDetails b{color:#241b2e!important}
+
+
+/* Polished bank-transfer chooser and account cards */
+.bank-transfer-panel{display:block;margin:0 0 18px;padding:20px;border:1px solid #d9c8ee;border-radius:16px;background:linear-gradient(145deg,#fbf8ff 0%,#f3edfb 100%);color:#261b35;box-shadow:0 10px 28px rgba(0,0,0,.12)}
+.bank-transfer-panel *{box-sizing:border-box}
+.bank-transfer-heading{display:flex;align-items:flex-start;gap:13px;margin-bottom:18px}
+.bank-transfer-icon{display:flex;align-items:center;justify-content:center;flex:0 0 42px;width:42px;height:42px;border-radius:12px;background:#e7d8fb;color:#6235a1;font-size:23px;font-weight:800}
+.bank-transfer-eyebrow{margin:0 0 4px!important;color:#7953a6!important;font-size:10px!important;font-weight:800;letter-spacing:1.5px}
+.bank-transfer-heading h3{margin:0 0 6px;color:#24152f;font-size:21px;line-height:1.2}
+.bank-transfer-intro{margin:0!important;color:#62556d!important;font-size:13px!important;line-height:1.55}
+.bank-picker-label{display:block;margin:0 0 14px;color:#342341;font-size:12px;font-weight:800;letter-spacing:.2px}
+.bank-picker{display:block;width:100%;margin-top:7px;padding:13px 14px;border:1px solid #d5c4e6;border-radius:10px;background:#fff;color:#271c32;font:inherit;font-size:14px;outline:none}
+.bank-picker:focus{border-color:#8e5cc7;box-shadow:0 0 0 3px rgba(142,92,199,.16)}
+.bank-account-card{padding:16px;border:1px solid #e2d8ec;border-radius:12px;background:#fff;box-shadow:0 4px 14px rgba(51,29,68,.05)}
+.bank-account-top{display:flex;align-items:center;justify-content:space-between;gap:10px;padding-bottom:12px;margin-bottom:4px;border-bottom:1px solid #eee7f4}
+.bank-account-name{color:#30203d;font-size:14px;font-weight:800}
+.bank-account-tag{padding:5px 8px;border-radius:6px;background:#f0e7fb;color:#70419e;font-size:10px;font-weight:800;letter-spacing:.8px}
+.bank-account-card dl{margin:0}
+.bank-account-card dl>div{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;padding:10px 0;border-bottom:1px solid #f1edf5}
+.bank-account-card dl>div:last-child{border-bottom:0;padding-bottom:0}
+.bank-account-card dt{color:#756a7e;font-size:12px}
+.bank-account-card dd{margin:0;color:#2b1d36;font-size:12px;font-weight:700;text-align:right;overflow-wrap:anywhere}
+.bank-transfer-note{margin-top:14px;padding:12px 14px;border-radius:10px;background:#eee5f8;color:#51405f}
+.bank-transfer-note strong{display:block;margin-bottom:4px;color:#402552;font-size:12px}
+.bank-transfer-note p{margin:0;color:#51405f;font-size:11px;line-height:1.6}
+@media(max-width:480px){.bank-transfer-panel{padding:15px}.bank-account-card{padding:13px}.bank-account-card dl>div{gap:8px}.bank-account-card dt,.bank-account-card dd{font-size:11px}}
