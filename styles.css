@@ -31,3 +31,6 @@
 .bank-transfer-note strong{display:block;margin-bottom:4px;color:#402552;font-size:12px}
 .bank-transfer-note p{margin:0;color:#51405f;font-size:11px;line-height:1.6}
 @media(max-width:480px){.bank-transfer-panel{padding:15px}.bank-account-card{padding:13px}.bank-account-card dl>div{gap:8px}.bank-account-card dt,.bank-account-card dd{font-size:11px}}
+
+/* Keep the bank-transfer panel hidden unless Bank Transfer is selected. */
+.bank-transfer-panel.hidden{display:none!important}
